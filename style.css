@@ -1,0 +1,72 @@
+body {
+    margin: 0; /* Remove margens padrão */
+    display: flex;
+    flex-direction: column; /* Alinha o nav e o conteúdo verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    min-height: 100vh; /* Faz o body ocupar a altura total da tela */
+        background-image: url('https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/1049x590/quality/80/https://s.aolcdn.com/os/ab/_cms/2019/11/06030705/b-is-for-build-v8-tt-huracan-sema-11.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+      
+      
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 300px;
+    
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #0800ff;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+.error-message {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+
+
